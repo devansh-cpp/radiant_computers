@@ -1,0 +1,135 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "DCA (Diploma in Computer Applications)",
+      "slug": "dca",
+      "description": "Learn the basics of computer applications, including MS Office, Internet, and fundamental IT concepts for everyday use.",
+      "price": 49.99,
+      "instructor": "Instructor Team",
+      "isFeatured": true,
+      "image": "/assets/DCA.png"
+    },
+    {
+      "id": 2,
+      "title": "ADCA (Advanced Diploma in Computer Applications)",
+      "slug": "adca",
+      "description": "Advanced training in computer applications covering MS Office, Tally, Internet, and basic programming for career enhancement.",
+      "price": 59.99,
+      "instructor": "Instructor Team",
+      "isFeatured": true,
+      "image": "/assets/ADCA.png"
+    },
+    {
+      "id": 3,
+      "title": "DTP (Desktop Publishing)",
+      "slug": "dtp",
+      "description": "Master publishing tools like CorelDRAW and Photoshop to design flyers, brochures, and creative layouts.",
+      "price": 39.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/DTP.png"
+    },
+    {
+      "id": 4,
+      "title": "MS Office",
+      "slug": "ms-office",
+      "description": "Comprehensive training in Microsoft Word, Excel, PowerPoint, and Outlook for personal and professional productivity.",
+      "price": 29.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/MSOffice.png"
+    },
+    {
+      "id": 5,
+      "title": "Photoshop",
+      "slug": "photoshop",
+      "description": "Learn Adobe Photoshop from scratch to create, edit, and enhance images with professional-grade skills.",
+      "price": 44.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/Photoshop.png"
+    },
+    {
+      "id": 6,
+      "title": "Video Editing",
+      "slug": "video-editing",
+      "description": "Create professional videos using tools like Adobe Premiere Pro and Filmora, from trimming to transitions and effects.",
+      "price": 54.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/VideoEditing.png"
+    },
+    {
+      "id": 7,
+      "title": "CCC (Course on Computer Concepts)",
+      "slug": "ccc",
+      "description": "Government-certified course to build foundational computer knowledge and skills for office and everyday use.",
+      "price": 34.99,
+      "instructor": "Instructor Team",
+      "isFeatured": true,
+      "image": "/assets/CCC.png"
+    },
+    {
+      "id": 8,
+      "title": "Web Development (HTML, CSS, JS)",
+      "slug": "web-development",
+      "description": "Build websites from scratch using HTML, CSS, and JavaScript. Ideal for beginners looking to enter web development.",
+      "price": 69.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/WebDevelopment.png"
+    },
+    {
+      "id": 9,
+      "title": "Advanced Excel",
+      "slug": "advanced-excel",
+      "description": "Master Excel tools like formulas, pivot tables, charts, and data analysis for business and professional use.",
+      "price": 39.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/Excel.png"
+    },
+    {
+      "id": 10,
+      "title": "Accounting with Tally",
+      "slug": "tally-accounting",
+      "description": "Learn computerized accounting using Tally software including GST, vouchers, ledgers, and reports.",
+      "price": 59.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/Tally.png"
+    },
+    {
+      "id": 11,
+      "title": "COPA (Computer Operator and Programming Assistant)",
+      "slug": "copa",
+      "description": "ITI-level course focused on computer operations, typing, MS Office, internet, and basic programming.",
+      "price": 64.99,
+      "instructor": "Instructor Team",
+      "isFeatured": true,
+      "image": "/assets/COPA.png"
+    },
+    {
+      "id": 12,
+      "title": "Python Programming",
+      "slug": "python-programming",
+      "description": "Beginner-friendly Python programming course covering syntax, logic building, and small projects.",
+      "price": 74.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/Python.png"
+    },
+    
+    {
+      "id": 13,
+      "title": "Typing Course",
+      "slug": "typing",
+      "description": "Improve your typing speed and accuracy with practical exercises and typing software.",
+      "price": 24.99,
+      "instructor": "Instructor Team",
+      "isFeatured": false,
+      "image": "/assets/Typing.png"
+    }
+  ]
+}
