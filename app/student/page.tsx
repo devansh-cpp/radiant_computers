@@ -45,7 +45,8 @@ export default function CertificateVerifier() {
         },
         error: {
           render({ data }) {
-            return data?.message || 'Error fetching data';
+            const error = data as any
+            return error?.message || 'Error fetching data';
           },
         },
       }
