@@ -43,7 +43,7 @@ function Hero() {
                 <h5 className='mt-16 text-yellow-300 text-xl sm:text-2xl'>NOW OPEN FOR NEW ADMISSIONS</h5>
                 <h5 className='mt-2 mb-6  text-white font-bold text-xl sm:text-2xl'>Do check our amazing courses and <br />enroll yourself on our website</h5>
                 <Link href='/contact' className='border-4  hover:bg-yellow-700 hover:text-white border-white text-yellow-300 font-bold text-xl sm:text-2xl px-4 py-2 '>Enroll Now</Link>            </div>
-            <img className='absolute h-96 left-20'  src="./mobilebg.png" alt="" />
+            <img className='absolute h-96 left-'  src="./mobilebg.png" alt="" />
     </div>
     </div>
   )

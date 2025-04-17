@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='w-full sm:block flex justify-between items-center lg:px-14 px-4 md:py-2 py-2 h-16  bg-gray-100 border-b-4 text-black border-blue-400  fixed top-0 left-0 z-50'>
+            <nav className='sm:w-full w-screen sm:block flex justify-between items-center lg:px-14 px-4 md:py-2 py-2 h-16  bg-gray-100 border-b-4 text-black border-blue-400  fixed top-0   z-50'>
                
                <div className='flex flex-row justify-evenly  items-center'>
 
@@ -31,17 +31,17 @@ const Navbar = () => {
 
                 <div className={`hidden md:block`}>
                     <ul className='text-blue  flex gap-16 text-lg font-semibold navlist'>
-                        <li className='hover:text-[#344feb] duration-200 '>
+                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 hover:py-1 rounded-xl duration-200 '>
                             <Link className='flex justify-center items-center gap-2' href='/'><TiHome/> Home</Link>
                         </li>
-                        <li className='hover:text-[#344feb] duration-200'>
+                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 hover:py-1 rounded-xl duration-200'>
                             <Link  className='flex justify-center items-center gap-2' href='/courses'><HiAcademicCap/>Courses</Link>
                         </li>
                        
-                        <li className='hover:text-[#344feb] duration-200'>
+                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 hover:py-1 rounded-xl duration-200'>
                             <Link  className='flex justify-center items-center gap-2' href='/student' ><PiStudentFill/>Student</Link>
                         </li>
-                        <li className='hover:text-[#344feb] duration-200'>
+                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 hover:py-1 rounded-xl duration-200'>
                             <Link  className='flex justify-center items-center gap-2' href='/about'> <Gi3dGlasses/>About </Link>
                         </li>
                          
@@ -75,24 +75,24 @@ export default Navbar;
 export function MenuModal({ setOpen }: { setOpen: () => void }) {
     return (
         <>
-            <div className='h-screen w-full bg-black  backdrop-blur-lg  lg:hidden absolute top-[110%] left-0 overflow-y-scroll'>
+            <div className='h-screen w-1/2    backdrop-blur-lg  lg:hidden absolute top-[110%] left-[50%] overflow-y-scroll'>
                 <div className="container mt-2">
-                    <ul className=' text-slate-300 flex flex-col gap-y-8 mt-16 gap-16 text-2xl font-semibold navlist justify-center items-center' onClick={setOpen}>
+                    <ul className=' text-slate-700 flex flex-col gap-y-8 mt-16 gap-16 text-2xl font-semibold navlist justify-center items-center' onClick={setOpen}>
                         <li>
                             <Link href='/'>Home</Link>
                         </li>
                         <li>
-                            <Link href='/internships'>About</Link>
+                            <Link href='/about'>About</Link>
                         </li>
                         <li>
-                            <Link href='/verify'>Courses</Link>
+                            <Link href='/courses'>Courses</Link>
                         </li>
                         
                         <li>
-                            <Link href='/campus-ambassador' target='_blank'> Student</Link>
+                            <Link href='/student'  > Student</Link>
                         </li>
                         <li>
-                            <Link href='/about'>Contact us</Link>
+                            <Link href='/contact'>Contact us</Link>
                         </li>
                     </ul>
                 </div>
