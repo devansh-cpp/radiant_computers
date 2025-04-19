@@ -31,7 +31,7 @@ function Hero() {
         </div>
     </div>
 
-    <div className='mobileview   sm:hidden block mt-20  pl-4 pt-4   w-screen bg-[#393be7]'>
+    <div className='mobileview   sm:hidden block mt-16  pl-4 pt-4   w-screen bg-[#393be7]'>
     <div>
             <h3 className='text-yellow-300 sm:text-3xl text-2xl font-bold italic '>Upgrade your</h3>
             <h2 className='text-white sm:text-6xl text-5xl font-extralight  '>SKILLS AND <span className='text-yellow-300'>KNOWLEDGE</span></h2>

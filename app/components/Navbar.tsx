@@ -19,13 +19,13 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='sm:w-full w-screen sm:block flex justify-between items-center lg:px-14 px-4 md:py-2 py-2 h-20  bg-gray-100 border-b-4 text-black border-blue-400  fixed top-0   z-50'>
+            <nav className='sm:w-full w-screen sm:block flex justify-between items-center lg:px-14 px-4 md:py-2 py-2 sm:h-20  bg-gray-100 border-b-4 text-black border-blue-400  fixed top-0   z-50'>
                
                <div className='flex flex-row justify-evenly  items-center'>
 
                 <div className='h-full sm:flex sm:items-center bg-gradient-to-br from-indigo-600 to-lime-700 bg-clip-text text-transparent font-bold text-2xl '>
                     <Link href='/logo2.png' className=''> 
-                        <img src="logo.png" className='w-48' alt="" />
+                        <img src="logo.png" className='sm:w-48 w-36' alt="" />
                     </Link>
                 </div>
 
@@ -75,7 +75,7 @@ export default Navbar;
 export function MenuModal({ setOpen }: { setOpen: () => void }) {
     return (
         <>
-            <div className='h-screen w-1/2    backdrop-blur-lg  lg:hidden absolute top-[110%] left-[50%] overflow-y-scroll'>
+            <div className='h-screen w-1/2 bg-white   backdrop-blur-lg  lg:hidden absolute top-[100%] left-[50%] overflow-y-scroll'>
                 <div className="container mt-2">
                     <ul className=' text-slate-700 flex flex-col gap-y-8 mt-16 gap-16 text-2xl font-semibold navlist justify-center items-center' onClick={setOpen}>
                         <li>

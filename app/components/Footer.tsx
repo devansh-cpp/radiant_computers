@@ -6,7 +6,7 @@ export default function Footer() {
       <footer className="bg-black text-gray-400 py-12">
         <div className=" max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5  8 px-4 sm:px-6 lg:px-8">
           <div className="col-span-2">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.88027099964!2d81.74630067596745!3d26.748196567140322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a24ceb694d2ef%3A0xc666b2f23d41e96b!2sRadiant%20Computer%20Institute%20Rudauli!5e0!3m2!1sen!2sin!4v1744521031508!5m2!1sen!2sin" width="400" height="250"    loading="lazy" ></iframe>  
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.88027099964!2d81.74630067596745!3d26.748196567140322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a24ceb694d2ef%3A0xc666b2f23d41e96b!2sRadiant%20Computer%20Institute%20Rudauli!5e0!3m2!1sen!2sin!4v1744521031508!5m2!1sen!2sin" width="350" height="250"    loading="lazy" ></iframe>  
           </div>
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">
