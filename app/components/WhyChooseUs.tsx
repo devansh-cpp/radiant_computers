@@ -52,7 +52,7 @@ export default function WhyChooseUs(){
 
     return(
         <>
-        <div  className="p-12 bg-gradient-to-b from-[#8C52FF] to-[#e3d5ff]">
+        <div  className="p-12 bg-gradient-to-b from-[#593be7] to-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="text-center">
                 <h2 className="mb-4 text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Why Choose Us</h2>

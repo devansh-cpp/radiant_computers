@@ -91,7 +91,7 @@ export default function Footer() {
         
         <p className="text-center text-xs pt-8">
         © Radiant Computers | All right reserved
-        <br /> Developed with ❤️ <u>sudoweb.in</u>
+        <br /> Developed with ❤️ <a href="www.sudoweb.in"><u>sudoweb.in</u></a> 
         </p>
       </footer>
     </>

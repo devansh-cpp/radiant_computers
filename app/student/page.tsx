@@ -54,7 +54,7 @@ export default function CertificateVerifier() {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center p-6  bg-gradient-to-b from-[#8C52FF] to-[#e3d5ff]">
+    <div className="min-h-screen flex justify-center items-center p-6  bg-gradient-to-br from-[#593be7] to-white">
       <ToastContainer position="bottom-center" autoClose={3000} hideProgressBar />
 
       <div className="sm:max-w-xl min-w-[400px]  sm:mx-auto  bg-[rgba(255,255,255,0.5)] rounded-xl shadow-md p-6">

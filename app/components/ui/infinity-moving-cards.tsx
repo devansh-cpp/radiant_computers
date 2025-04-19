@@ -74,14 +74,14 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20  max-w-7xl overflow-hidden    ",
         className
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
+          " flex min-w-full  shrink-0 gap-4 py-4 w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
@@ -95,15 +95,15 @@ export const InfiniteMovingCards = ({
             }}
             key={item.name}
           >
-            <blockquote className="relative   p-6 rounded-lg shadow-lg">
+            <blockquote className="relative bg-[#593be7]   p-6 rounded-lg shadow-lg">
   <div
     aria-hidden="true"
-    className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%+4px)] w-[calc(100%+4px)]"
+    className="user-select-none -z-1  pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%+4px)] w-[calc(100%+4px)]"
   ></div>
 
   {/* Quote and Image Section */}
-  <div className="flex items-center gap-4">
-    <div className="min-w-10 min-h-44">
+  <div className="flex items-center  gap-4">
+    <div className="min-w-10  min-h-44">
 
     <img
       src={item.people}

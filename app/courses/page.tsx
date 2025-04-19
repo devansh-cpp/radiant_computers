@@ -31,7 +31,7 @@ const faqData = [
 export default function page (){
     return(
         <>
-        <div className="  bg-gradient-to-b   to-fuchsia-200">
+        <div className="   ">
 
         <CourseHero/>
         <div id="course-offer" className="  py-12 pt-36">

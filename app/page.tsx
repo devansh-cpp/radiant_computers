@@ -10,14 +10,15 @@ export default function Home() {
   return (
     <>
     
-     
+    
+
      <Hero/>
     
 
     <About/>
     <FeaturedCourses/>
     <WhyChooseUs/>
-    <Testimonials/>
+    <Testimonials/> 
     
      
     </>

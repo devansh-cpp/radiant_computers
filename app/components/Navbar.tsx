@@ -19,13 +19,13 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='sm:w-full w-screen sm:block flex justify-between items-center lg:px-14 px-4 md:py-2 py-2 h-16  bg-gray-100 border-b-4 text-black border-blue-400  fixed top-0   z-50'>
+            <nav className='sm:w-full w-screen sm:block flex justify-between items-center lg:px-14 px-4 md:py-2 py-2 h-20  bg-gray-100 border-b-4 text-black border-blue-400  fixed top-0   z-50'>
                
                <div className='flex flex-row justify-evenly  items-center'>
 
                 <div className='h-full sm:flex sm:items-center bg-gradient-to-br from-indigo-600 to-lime-700 bg-clip-text text-transparent font-bold text-2xl '>
-                    <Link href='/logo2.png' className=''>
-                        <h1>Radiant Computers</h1>
+                    <Link href='/logo2.png' className=''> 
+                        <img src="logo.png" className='w-48' alt="" />
                     </Link>
                 </div>
 

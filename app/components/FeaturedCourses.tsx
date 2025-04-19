@@ -21,11 +21,11 @@ export default function FeaturedCourses(){
    const FeaturedCourse = courseData.courses.filter((course:Course)=>course.isFeatured)
     return(
         <>
-        <div className="py-12 bg-gradient-to-t from-[#8C52FF] to-[#e3d5ff]">
+        <div className="py-12   bg-gray-100">
            <div>
             <div className="text-center flex  flex-col justify-center items-center">
-                <h2 className="sm:text-xl text-base text-[#8c52ff]  px-4 py-2 bg-white border-2 border-[#8c52ff] rounded-2xl w-fit font-extrabold tracking-wide uppercase">FEATURED COURSES</h2>
-                <p className="my-2    font-bold tracking-tight px-4 py-2 border-2 border-white rounded-2xl  bg-[#8c52ff] w-fit text-center text-white sm:text-4xl text-2xl">Explore our trending Courses </p>
+                <h2 className="sm:text-xl text-base text-[#393be7]  px-4 py-2      rounded-2xl w-fit font-extrabold tracking-wide uppercase">FEATURED COURSES</h2>
+                <p className="my-2    font-bold tracking-tight px-4  w-fit text-center text-gray-700 sm:text-4xl text-2xl">Explore our trending Courses </p>
             </div>
            </div>
            <div className="mt-10 scale-95">
@@ -49,7 +49,7 @@ export default function FeaturedCourses(){
            </div>
            <div className="my-8 text-center">
             <Link href="/internships">
-            <button className="bg-black border-b-2 border-white text-blue-300 hover:bg-white hover:text-gray-800 duration-200 font-bold px-4 py-2 rounded-lg">Explore more</button>
+            <button className="bg-[#393be7]   text-gray-100 hover:bg-transparent hover:border-[2px] border-[2px] hover:border-[#393be7] hover:text-gray-800 duration-200 font-bold px-8 py-3 mt-8  ">Explore more</button>
             </Link>
            </div>
         </div>

@@ -5,6 +5,7 @@ import {
   FaUserTie,
   FaChevronDown,
 } from 'react-icons/fa';
+import About from '../components/About';
 
 type FeatureCardProps = {
   icon: ReactNode;
@@ -41,7 +42,7 @@ const AboutPage: React.FC = () => {
   return (
     <div className="font-sans">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r mt-16 from-indigo-500 via-purple-500 to-pink-500 text-white py-16 text-center">
+      <section className="bg-[#593be7] mt-16    text-white py-32 text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             About Radiant Computer Institute
@@ -70,11 +71,13 @@ const AboutPage: React.FC = () => {
             </h2>
             <p>
               To become the most trusted institute for IT education and a launchpad
-              for tomorrow’s tech leaders.
+              for tomorrow's tech leaders.
             </p>
           </div>
         </div>
       </section>
+
+      <About/>
 
       {/* Why Choose Us */}
       <section className="bg-gray-50 py-12">
