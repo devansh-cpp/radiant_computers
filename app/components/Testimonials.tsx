@@ -36,54 +36,77 @@ export function Testimonials() {
 
 const testimonials = [
   {
-    quote:
-      "Atif innovative mindset and dedication to excellence have been a driving force behind his success. He consistently delivers outstanding results.",
-    name: "Dr. Shah Alam Qadri",
-    title: "Founder of QCL Institutes",
-    people : 'https://avatar.iran.liara.run/public/5'
+    quote: "Radiant Computer Institute gave me a solid foundation in Web Development. The trainers were amazing and supportive throughout.",
+    name: "Rohit Verma",
+    title: "Web Development Student",
+    people: "https://avatar.iran.liara.run/public/5"
   },
   {
-    quote:
-      "Atif innovative mindset and dedication to excellence have been a driving force behind his success. He consistently delivers outstanding results.",
-    name: "Dr. Shah Alam Qadri",
-    title: "Founder of QCL Institutes",
-    people : 'https://avatar.iran.liara.run/public/5'
+    quote: "The ADCA course really boosted my confidence and skills. I highly recommend Radiant to anyone looking to upskill in computers.",
+    name: "Priya Sharma",
+    title: "ADCA Student",
+    people: "https://avatar.iran.liara.run/public/5"
   },
   {
-    quote:
-      "Atif innovative mindset and dedication to excellence have been a driving force behind his success. He consistently delivers outstanding results.",
-    name: "Dr. Shah Alam Qadri",
-    title: "Founder of QCL Institutes",
-    people : 'https://avatar.iran.liara.run/public/5'
+    quote: "I joined for MS Office and ended up mastering Excel and PowerPoint too. The environment is super friendly and professional.",
+    name: "Amit Singh",
+    title: "MS Office Student",
+    people: "https://avatar.iran.liara.run/public/5"
   },
   {
-    quote:
-      "Atif innovative mindset and dedication to excellence have been a driving force behind his success. He consistently delivers outstanding results.",
-    name: "Dr. Shah Alam Qadri",
-    title: "Founder of QCL Institutes",
-    people : 'https://avatar.iran.liara.run/public/5'
+    quote: "The FTP course was the best decision I made after school. I now feel ready to explore the IT world.",
+    name: "Nikita Tiwari",
+    title: "FTP Program Graduate",
+    people: "https://avatar.iran.liara.run/public/5"
   },
   {
-    quote:
-      "Atif innovative mindset and dedication to excellence have been a driving force behind his success. He consistently delivers outstanding results.",
-    name: "Dr. Shah Alam Qadri",
-    title: "Founder of QCL Institutes",
-    people : 'https://avatar.iran.liara.run/public/5'
+    quote: "Radiant’s DCA course helped me get a job as a data entry operator. Their practical approach really sets them apart.",
+    name: "Rahul Yadav",
+    title: "DCA Student",
+    people: "https://avatar.iran.liara.run/public/5"
   },
   {
-    quote:
-      "Atif innovative mindset and dedication to excellence have been a driving force behind his success. He consistently delivers outstanding results.",
-    name: "Dr. Shah Alam Qadri",
-    title: "Founder of QCL Institutes",
-    people : 'https://avatar.iran.liara.run/public/5'
+    quote: "The trainers at Radiant are very knowledgeable. I joined Advanced Excel and now I’m teaching others!",
+    name: "Sneha Patel",
+    title: "Advanced Excel Student",
+    people: "https://avatar.iran.liara.run/public/5"
   },
   {
-    quote:
-      "Atif innovative mindset and dedication to excellence have been a driving force behind his success. He consistently delivers outstanding results.",
-    name: "Dr. Shah Alam Qadri",
-    title: "Founder of QCL Institutes",
-    people : 'https://avatar.iran.liara.run/public/5'
+    quote: "The Video Editing course at Radiant helped me kickstart my freelancing career. Highly practical and up-to-date content.",
+    name: "Arjun Mehra",
+    title: "Video Mixing & Editing Student",
+    people: "https://avatar.iran.liara.run/public/5"
   },
-   
+  {
+    quote: "COPA course was intensive but worth every minute. Got certified and hired within weeks. Thanks Radiant!",
+    name: "Simran Kaur",
+    title: "COPA Certified",
+    people: "https://avatar.iran.liara.run/public/5"
+  },
+  {
+    quote: "Radiant taught me how to use computers from scratch. Their FTP program is great for complete beginners like me.",
+    name: "Imran Ansari",
+    title: "FTP Student",
+    people: "https://avatar.iran.liara.run/public/5"
+  },
+  {
+    quote: "I upgraded from MS Office to Advanced Excel and I can already see a huge improvement in my work efficiency.",
+    name: "Pooja Kumari",
+    title: "Advanced Excel Enthusiast",
+    people: "https://avatar.iran.liara.run/public/5"
+  },
+  {
+    quote: "Learning Web Development at Radiant gave me the confidence to build my own portfolio site. Totally worth it!",
+    name: "Vikram Joshi",
+    title: "Web Development Trainee",
+    people: "https://avatar.iran.liara.run/public/5"
+  },
+  {
+    quote: "Radiant Computer Institute is the best place to start your tech journey. Every class was interactive and fun.",
+    name: "Neha Chauhan",
+    title: "DCA Graduate",
+    people: "https://avatar.iran.liara.run/public/5"
+  }
 ];
+
 

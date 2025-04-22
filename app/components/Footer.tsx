@@ -23,10 +23,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/internships"
+                  href="/courses"
                   className="hover:text-white transition-colors duration-300"
                 >
-                  Internships
+                  Courses
                 </a>
               </li>
               <li>
@@ -59,16 +59,16 @@ export default function Footer() {
             <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
             <div className="flex space-x-4">
               <a
-                href="https://t.me/code_collab"
+                href="https://www.youtube.com/@Rdlradiantcomputer "
                 className="hover:text-white transition-colors duration-300"
               >
-                Telegram
+                Youtube
               </a>
               <a
-                href="https://www.linkedin.com/in/codecollab/"
+                href="https://www.instagram.com/radiant_computer_institute?igsh=MWIwczl2ZWdmaTY0NQ== "
                 className="hover:text-white transition-colors duration-300"
               >
-                Linkedin
+                Instagram
               </a>
               
             </div>
@@ -78,10 +78,10 @@ export default function Footer() {
             <h2 className="text-white text-lg font-semibold mb-4">
               Contact Us
             </h2>
-            <p>Dehradun,Uttrakhand</p>
-            <p>India</p>
-            <p>Email: help.codecollab@gmail.com</p>
-            <p>Phone: 97654331234</p>
+            <p>Mohalla Salar , Hajineem </p>
+            <p>Rudauli Ayodhya</p>
+            <p>Email: radiantcompyterinstititue3@gmail.com</p>
+            <p>Phone: +916394807077</p>
           </div>
           <div>
         
@@ -91,7 +91,7 @@ export default function Footer() {
         
         <p className="text-center text-xs pt-8">
         © Radiant Computers | All right reserved
-        <br /> Developed with ❤️ <a href="www.sudoweb.in"><u>sudoweb.in</u></a> 
+        <br /> Developed with ❤️ <a href="https://www.sudoweb.in/" target="#"><u>sudoweb.in</u></a> 
         </p>
       </footer>
     </>

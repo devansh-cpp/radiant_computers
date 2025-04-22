@@ -45,7 +45,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="text-gray-600 body-font mt-20 relative" id="contact">
+    <section className="text-gray-600 body-font mt-24 relative" id="contact">
       <ToastContainer
 position="bottom-right"
 autoClose={5000}
@@ -60,7 +60,7 @@ theme="dark"
 transition={Bounce}
 />
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold text-gray-800">Contact Us</h1>
+        <h1 className="text-4xl font-bold text-gray-800">Contact with Us</h1>
         <p className="text-lg text-blue-500 mt-2">
           Get in touch to learn more about Radiant Computer Institute – your
           gateway to future-ready tech skills!
@@ -87,7 +87,7 @@ transition={Bounce}
                   ADDRESS
                 </h2>
                 <p className="mt-1">
-                  Near Main Market, Rudauli, Uttar Pradesh
+                Mohalla Salar , Hajineem ,Rudauli
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -95,12 +95,12 @@ transition={Bounce}
                   EMAIL
                 </h2>
                 <a className="text-blue-500 leading-relaxed">
-                  example@email.com
+                radiantcompyterinstititue3@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">123-456-7890</p>
+                <p className="leading-relaxed">+916394807077</p>
               </div>
             </div>
           </div>

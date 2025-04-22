@@ -5,6 +5,7 @@ import FeaturedCourses from "./components/FeaturedCourses";
 import WhyChooseUs from "./components/WhyChooseUs";
 import { Testimonials } from "./components/Testimonials";
 import Hero from "./components/Hero";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
 
     <About/>
     <FeaturedCourses/>
-    <WhyChooseUs/>
+    <WhyChooseUs/> 
+    <Gallery/>
     <Testimonials/> 
     
      

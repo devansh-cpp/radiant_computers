@@ -6,48 +6,49 @@ export default function WhyChooseUs(){
 
   const websiteFeatures = [
     {
-      title: 'Project-Based Learning',
+      title: "Experienced Faculty",
       description:
-        'Gain practical experience through real-world projects tailored to enhance your skills and prepare you for industry challenges.',
-      slug: 'project-based-learning',
+        "Learn from certified and industry-experienced instructors who are passionate about teaching and student success.",
+      slug: "experienced-faculty",
       isFeatured: true,
     },
     {
-      title: 'Diverse Internship Programs',
+      title: "Industry-Relevant Courses",
       description:
-        'Explore a range of internships in technologies like React, Python, Java, C++, MERN Stack, and Web Development.',
-      slug: 'diverse-internship-programs',
+        "Our curriculum is tailored to meet current industry demands in areas like Web Development, Advanced Excel, and Programming.",
+      slug: "industry-relevant-courses",
       isFeatured: true,
     },
     {
-      title: 'Flexible Learning Schedule',
+      title: "Affordable & Accessible Education",
       description:
-        'Choose internships that fit your schedule, making it easier to balance learning with other commitments.',
-      slug: 'flexible-learning-schedule',
+        "High-quality education at affordable fees, accessible to students from all backgrounds, especially in Tier 2 & Tier 3 cities.",
+      slug: "affordable-accessible-education",
       isFeatured: true,
     },
     {
-      title: 'Certificate of Completion',
+      title: "Hands-On Practical Training",
       description:
-        'Receive a verified certificate upon successful completion of the internship to enhance your resume.',
-      slug: 'certificate-of-completion',
+        "Focus on real-time projects and practical learning to ensure students are job-ready from day one.",
+      slug: "hands-on-practical-training",
       isFeatured: true,
     },
     {
-      title: 'Career Support',
+      title: "Government-Recognized Certification",
       description:
-        'Access valuable career resources, resume-building tips, and mock interviews to help you prepare for job opportunities.',
-      slug: 'career-support',
+        "Receive valid certificates upon course completion that are recognized by institutions and employers alike.",
+      slug: "government-recognized-certification",
       isFeatured: true,
     },
     {
-      title: 'Indian Industry Focus',
+      title: "Placement Assistance & Career Guidance",
       description:
-        'Internship programs designed with an understanding of the Indian IT landscape, providing relevant learning and growth opportunities.',
-      slug: 'indian-industry-focus',
-      isFeatured: false,
+        "We provide placement support, interview training, and career counseling to help you step confidently into the IT industry.",
+      slug: "placement-assistance-career-guidance",
+      isFeatured: true,
     },
   ];
+  
   
 
     return(

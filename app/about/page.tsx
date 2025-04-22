@@ -48,7 +48,9 @@ const AboutPage: React.FC = () => {
             About Radiant Computer Institute
           </h1>
           <p className="text-lg md:text-xl">
-            Empowering the Future with Quality Computer Education
+          Radiant Computer Institute, established in 2012 by Mr. Mohit Gupta, is a trusted name in computer education located in Rudauli, Ayodhya, Uttar Pradesh. Since our inception, we have been committed to providing high-quality and affordable computer training to students, professionals, and individuals seeking to enhance their digital skills.
+
+
           </p>
         </div>
       </section>
@@ -61,8 +63,8 @@ const AboutPage: React.FC = () => {
               Our Mission
             </h2>
             <p>
-              To provide industry-ready training in computer technologies through
-              innovative teaching methods and hands-on experience.
+            With over a decade of experience, Radiant has helped hundreds of learners build strong foundations in technology and prepare for successful careers in the IT field.
+
             </p>
           </div>
           <div className="bg-gray-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
@@ -70,8 +72,8 @@ const AboutPage: React.FC = () => {
               Our Vision
             </h2>
             <p>
-              To become the most trusted institute for IT education and a launchpad
-              for tomorrow's tech leaders.
+            At Radiant, we focus on practical learning, personalized attention, and career-oriented training. Our mission is to bridge the digital divide by empowering our students with the knowledge and skills needed in today’s competitive world.
+
             </p>
           </div>
         </div>

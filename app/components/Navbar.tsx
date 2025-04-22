@@ -24,24 +24,24 @@ const Navbar = () => {
                <div className='flex flex-row justify-evenly  items-center'>
 
                 <div className='h-full sm:flex sm:items-center bg-gradient-to-br from-indigo-600 to-lime-700 bg-clip-text text-transparent font-bold text-2xl '>
-                    <Link href='/logo2.png' className=''> 
+                    <Link href='/' className=''> 
                         <img src="logo.png" className='sm:w-48 w-36' alt="" />
                     </Link>
                 </div>
 
                 <div className={`hidden md:block`}>
                     <ul className='text-blue  flex gap-16 text-lg font-semibold navlist'>
-                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 hover:py-1 rounded-xl duration-200 '>
+                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 py-1 hover:py-1 rounded-xl duration-200 '>
                             <Link className='flex justify-center items-center gap-2' href='/'><TiHome/> Home</Link>
                         </li>
-                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 hover:py-1 rounded-xl duration-200'>
+                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 py-1 hover:py-1 rounded-xl duration-200'>
                             <Link  className='flex justify-center items-center gap-2' href='/courses'><HiAcademicCap/>Courses</Link>
                         </li>
                        
-                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 hover:py-1 rounded-xl duration-200'>
+                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 py-1 hover:py-1 rounded-xl duration-200'>
                             <Link  className='flex justify-center items-center gap-2' href='/student' ><PiStudentFill/>Student</Link>
                         </li>
-                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 hover:py-1 rounded-xl duration-200'>
+                        <li className='hover:text-white hover:bg-blue-500 sm:px-2 py-1 hover:py-1 rounded-xl duration-200'>
                             <Link  className='flex justify-center items-center gap-2' href='/about'> <Gi3dGlasses/>About </Link>
                         </li>
                          
@@ -49,9 +49,9 @@ const Navbar = () => {
                 </div>
 
                 <div className='hidden md:block'>
-                    <Link href='/contact'>
-                    <button className='px-4 py-2 rounded-2xl border-b-2 border-r-2 border-blue-300 bg-blue-600 text-white'>Contact Us</button>
-                    </Link>
+                <Link href="/contact">
+            <button className="bg-[#393be7]   text-gray-100 hover:bg-transparent hover:border-[2px] border-[2px] hover:border-[#393be7] hover:text-gray-800 duration-200 font-bold px-6 py-3    ">Enroll Now</button>
+            </Link>
                 </div>
                </div>
 
