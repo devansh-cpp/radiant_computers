@@ -4,6 +4,7 @@ import courseData from "../data/music_courses.json"
 import Link from "next/link"
 import { BackgroundGradient } from "./ui/background-gradient"
 import Image from "next/image"
+import CertificateSection from "./CertificateSection"
 
 interface Course{
     id: number,
@@ -52,6 +53,7 @@ export default function FeaturedCourses(){
             <button className="bg-[#393be7]   text-gray-100 hover:bg-transparent hover:border-[2px] border-[2px] hover:border-[#393be7] hover:text-gray-800 duration-200 font-bold px-8 py-3 mt-8  ">Explore more</button>
             </Link>
            </div>
+           <CertificateSection/>
         </div>
         </>
     )

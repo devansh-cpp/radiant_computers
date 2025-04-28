@@ -12,22 +12,21 @@ import FAQ from "../components/Faq";
 
 const faqData = [
   {
-    question: "How secure is my insurance information?",
+    question: "Will I receive a certificate after completing the course?",
     answer:
-      "We prioritize the security of your insurance information. We use advanced encryption and strict data protection measures to ensure your data is safe and confidential.",
+      "Yes, upon successful completion of your course, you will receive a verified certificate from Radiant Computer Institute, recognizing your skills and achievement.",
   },
   {
-    question: "How can I customize my insurance coverage?",
+    question: "Is the certificate valid for jobs and further studies?",
     answer:
-      "Our insurance plans are customizable. You can tailor your coverage to meet your specific needs and budget.",
+      "Absolutely! Our certificates are recognized and valued by companies and institutions, making them helpful for both job applications and further education.",
   },
   {
-    question: "Is there a waiting period for insurance claims?",
+    question: "Can I learn the courses easily even if I am a beginner?",
     answer:
-      "There may be a waiting period for certain insurance claims, depending on the policy terms and conditions. Please refer to your policy documents for details.",
+      "Yes! Our courses are designed for students of all levels, including beginners. Our experienced trainers ensure that complex topics are taught in a simple, easy-to-understand way.",
   },
 ];
-
 export default function page (){
     return(
         <>

@@ -40,7 +40,7 @@ Video Mixing & Editing
 Advanced Excel
 <br />
 COPA (Computer Operator and Programming Assistant)
-...and more.
+ 
 
            </p>
            <p>

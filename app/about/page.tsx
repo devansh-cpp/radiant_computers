@@ -6,6 +6,7 @@ import {
   FaChevronDown,
 } from 'react-icons/fa';
 import About from '../components/About';
+import CertificateSection from '../components/CertificateSection';
 
 type FeatureCardProps = {
   icon: ReactNode;
@@ -106,6 +107,8 @@ const AboutPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <CertificateSection/>
 
       {/* FAQ Section */}
       <section className="py-12 bg-white">

@@ -57,7 +57,7 @@ export default function CertificateVerifier() {
     <div className="min-h-screen flex justify-center items-center p-6  bg-gradient-to-br from-[#593be7] to-white">
       <ToastContainer position="bottom-center" autoClose={3000} hideProgressBar />
 
-      <div className="sm:max-w-xl  w-full  sm:mx-auto  bg-[rgba(255,255,255,0.5)] rounded-xl shadow-md p-6">
+      <div className="sm:max-w-xl  w-full  sm:mx-auto  bg-[rgba(255,255,255,0.9)] rounded-xl shadow-md p-6">
         <h1 className="text-xl font-bold mb-4">Certificate Verification</h1>
         <div className="flex  sm:flex-row flex-col gap-4 mb-4">
           <input
