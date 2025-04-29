@@ -95,7 +95,7 @@ transition={Bounce}
                   EMAIL
                 </h2>
                 <a className="text-blue-500 leading-relaxed">
-                radiantcomputerinstititue3@gmail.com
+                radiantcomputerinstitute3@gmail.com 
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE

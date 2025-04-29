@@ -80,7 +80,7 @@ export default function Footer() {
             </h2>
             <p>Mohalla Salar , Hajineem </p>
             <p>Rudauli Ayodhya</p>
-            <p>Email: radiantcomputerinstititue3@gmail.com</p>
+            <p>Email: radiantcomputerinstitute3@gmail.com </p>
             <p>Phone: +916394807077</p>
           </div>
           <div>
