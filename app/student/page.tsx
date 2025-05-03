@@ -13,7 +13,18 @@ interface CertificateData {
   Duration: string;
   Address: string;
   Certificate_Link: string;
+  Date_of_Joining: string;
 }
+
+// Utility function to format date to dd/mm/yyyy
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  if (isNaN(date.getTime())) return dateString; // fallback if invalid date
+  const day = String(date.getDate()).padStart(2, '0');
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const year = date.getFullYear();
+  return `${day}/${month}/${year}`;
+};
 
 export default function CertificateVerifier() {
   const [id, setId] = useState<string>('');
@@ -24,7 +35,7 @@ export default function CertificateVerifier() {
 
     toast.promise(
       axios.get<{ data: CertificateData[] }>(
-        'https://script.google.com/macros/s/AKfycbzTnRPWeZlpEoZC3g39SQ_5THl3QE9t_73ggJTbK5pOH9-oVvq_8x02tJSal4wsnmEd/exec',
+        'https://script.google.com/macros/s/AKfycbxY3oCOtrWuH8x5cmGc2AvZc9HZqHO-5StWjHPQTjkeo09goSFJp9Jg5zeS8vNV_DiU/exec',
         {
           params: { id },
         }
@@ -45,7 +56,7 @@ export default function CertificateVerifier() {
         },
         error: {
           render({ data }) {
-            const error = data as any
+            const error = data as any;
             return error?.message || 'Error fetching data';
           },
         },
@@ -54,17 +65,16 @@ export default function CertificateVerifier() {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center p-6  bg-gradient-to-br from-[#593be7] to-white">
+    <div className="min-h-screen flex justify-center items-center p-6 bg-gradient-to-br from-[#593be7] to-white">
       <ToastContainer position="bottom-center" autoClose={3000} hideProgressBar />
 
-      <div className="sm:max-w-xl  w-full  sm:mx-auto  bg-[rgba(255,255,255,0.9)] rounded-xl shadow-md p-6">
+      <div className="sm:max-w-xl w-full sm:mx-auto bg-[rgba(255,255,255,0.9)] rounded-xl shadow-md p-6">
         <h1 className="text-xl font-bold mb-4">Student Certificate Verification</h1>
-        <div className="flex  sm:flex-row flex-col gap-4 mb-4">
+        <div className="flex sm:flex-row flex-col gap-4 mb-4">
           <input
             type="text"
             placeholder="Enter Name"
             className="flex-1 p-2 border border-gray-300 rounded"
-           
           />
           <input
             type="text"
@@ -74,14 +84,14 @@ export default function CertificateVerifier() {
             onChange={(e) => setId(e.target.value)}
           />
           <button
-  className={`px-4 py-2 rounded text-white ${
-    !id ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700'
-  }`}
-  onClick={handleFetch}
-  disabled={!id}
->
-  Verify
-</button>
+            className={`px-4 py-2 rounded text-white ${
+              !id ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700'
+            }`}
+            onClick={handleFetch}
+            disabled={!id}
+          >
+            Verify
+          </button>
         </div>
 
         {data && (
@@ -92,6 +102,7 @@ export default function CertificateVerifier() {
               <p><strong>Name:</strong> {data.Name}</p>
               <p><strong>Phone:</strong> {data.Phone}</p>
               <p><strong>Course:</strong> {data.Course}</p>
+              <p><strong>Start Date:</strong> {formatDate(data.Date_of_Joining)}</p>
               <p><strong>Duration:</strong> {data.Duration}</p>
               <p><strong>Address:</strong> {data.Address}</p>
               <p><strong>Aadhar No:</strong> {data.ID}</p>
